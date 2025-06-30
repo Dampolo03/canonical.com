@@ -1,0 +1,50 @@
+{% extends 'base_index.html' %}
+
+{% block title %}Feast feature store - enterprise solution{% endblock %}
+
+{% block meta_description %}
+  Enterprise-ready Feast feature store for ML pipelines. Charmed Feast integrates with Kubeflow and simplifies feature management.
+{% endblock %}
+
+{% block meta_copydoc %}
+  https://docs.google.com/document/d/1LIoohkRa1CgRf3KFazsF518Rf5A1Ym_pKUyqA1h1uRA/edit
+{% endblock meta_copydoc %}
+
+{% block body_class %}
+  is-paper
+{% endblock body_class %}
+
+{% block content %}
+
+  <section class="p-strip is-shallow u-no-padding--bottom">
+    <div class="row">
+      <div class="col-start-large-4 col-9">
+        <div class="p-section--shallow">
+          <h1>
+            Take your models to production
+            <br class="u-hide--small" />
+            with open source AI
+          </h1>
+        </div>
+        <div class="p-section--shallow">
+          <p>
+            Build enterprise-grade AI projects with  secure and supported Canonical MLOps. Develop on your Ubuntu workstation using Charmed Kubeflow or Charmed MLFlow and scale up quickly with open source tooling in every part of your stack.
+          </p>
+        </div>
+        <a class="p-button--positive js-invoke-modal" href="/ai/contact-us">Contact us</a>
+        <a class="p-button" href="/engage/mlops-guide">Read our guide to MLOps</a>
+      </div>
+    </div>
+    <div class="u-fixed-width u-no-padding u-hide--small u-hide--medium">
+      <img src="https://assets.ubuntu.com/v1/5dc85b16-feast-logo.png"
+           alt=""
+           style="aspect-ratio: 5.1775700934579;
+                  width: 100%" />
+    </div>
+    <hr class="p-rule" />
+    <a class="p-button--positive js-invoke-modal"
+       href="/contact-us"
+       aria-controls="ai-modal">Contact Canonical <span class="u-off-screen">about AI solutions for edge computing</span></a>
+  </section>
+
+{% endblock content %}
